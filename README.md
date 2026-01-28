@@ -32,7 +32,7 @@ The project covers real-world concerns such as authentication, role-based access
 ### Patient Management
 ![Patient Page](crudapp-frontend/public/images/p_patient.jpg)
 
-### Doctor Profile
+### Doctor Management
 ![Doctor Page](crudapp-frontend/public/images/p_docteur.jpg)
 
 ---
