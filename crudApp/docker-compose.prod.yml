@@ -1,0 +1,115 @@
+version: '3.8'
+services:
+  # ================================
+  # MySQL Database (Production)
+  # ================================
+  mysql:
+    image: mysql:8.0
+    container_name: crudapp-mysql-prod
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_prod_data:/var/lib/mysql
+      - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./docker/mysql/backup:/backup
+    networks:
+      - crudapp-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    command: --default-authentication-plugin=mysql_native_password
+
+  # ================================
+  # Spring Boot Application (Production)
+  # ================================
+  app:
+    image: ${DOCKER_USERNAME}/crudapp-medical:latest
+    container_name: crudapp-backend-prod
+    restart: always
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      # Spring Profile
+      SPRING_PROFILES_ACTIVE: prod
+
+      # Database Configuration
+      DATABASE_URL: jdbc:mysql://mysql:3306/${MYSQL_DATABASE}?useSSL=true&requireSSL=true&serverTimezone=UTC
+      DATABASE_USERNAME: ${MYSQL_USER}
+      DATABASE_PASSWORD: ${MYSQL_PASSWORD}
+
+      # JWT Configuration
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_EXPIRATION: ${JWT_EXPIRATION:-86400000}
+      JWT_REFRESH_EXPIRATION: ${JWT_REFRESH_EXPIRATION:-604800000}
+
+      # Email Configuration
+      EMAIL_HOST: ${EMAIL_HOST}
+      EMAIL_PORT: ${EMAIL_PORT}
+      EMAIL_USERNAME: ${EMAIL_USERNAME}
+      EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+
+      # JVM Options (Production)
+      JAVA_OPTS: -Xms1g -Xmx2g -XX:+UseG1GC -XX:MaxGCPauseMillis=200
+    ports:
+      - "8080:8080"
+    networks:
+      - crudapp-network
+    volumes:
+      - app_prod_logs:/var/log/crudapp
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/actuator/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 90s
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '1'
+          memory: 1G
+
+  # ================================
+  # Nginx Reverse Proxy (Production)
+  # ================================
+  nginx:
+    image: nginx:alpine
+    container_name: crudapp-nginx-prod
+    restart: always
+    depends_on:
+      - app
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./docker/nginx/ssl:/etc/nginx/ssl:ro
+    networks:
+      - crudapp-network
+
+# ================================
+# Networks
+# ================================
+networks:
+  crudapp-network:
+    driver: bridge
+
+# ================================
+# Volumes
+# ================================
+volumes:
+  mysql_prod_data:
+    driver: local
+  app_prod_logs:
+    driver: local

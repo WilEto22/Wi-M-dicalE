@@ -1,0 +1,62 @@
+2026-01-27 14:49:24 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:24 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:25 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "U1_0.ADDRESS" non trouvée
+Column "U1_0.ADDRESS" not found; SQL statement:
+select u1_0.id,u1_0.address,u1_0.date_of_birth,u1_0.email,u1_0.email_verified,u1_0.full_name,u1_0.password,u1_0.phone_number,u1_0.profile_photo,u1_0.provider,u1_0.provider_id,u1_0.roles,u1_0.medical_specialty,u1_0.user_type,u1_0.username from users u1_0 where u1_0.username=? [42122-232]
+2026-01-27 14:49:25 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:25 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "U1_0.ADDRESS" non trouvée
+Column "U1_0.ADDRESS" not found; SQL statement:
+select u1_0.id,u1_0.address,u1_0.date_of_birth,u1_0.email,u1_0.email_verified,u1_0.full_name,u1_0.password,u1_0.phone_number,u1_0.profile_photo,u1_0.provider,u1_0.provider_id,u1_0.roles,u1_0.medical_specialty,u1_0.user_type,u1_0.username from users u1_0 where u1_0.username=? [42122-232]
+2026-01-27 14:49:27 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:27 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:27 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:27 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:27 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:27 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:27 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:27 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:27 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:28 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:28 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:28 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:28 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:28 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:28 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Colonne "ADDRESS" non trouvée
+Column "ADDRESS" not found; SQL statement:
+insert into users (address,date_of_birth,email,email_verified,full_name,password,phone_number,profile_photo,provider,provider_id,roles,medical_specialty,user_type,username) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [42122-232]
+2026-01-27 14:49:31 [main] ERROR c.e.c.s.AppointmentReminderService - Erreur lors de l'envoi du rappel pour le rendez-vous ID: 1 - Email service error
+2026-01-27 14:51:18 [main] ERROR c.e.c.s.AppointmentReminderService - Erreur lors de l'envoi du rappel pour le rendez-vous ID: 1 - Email service error

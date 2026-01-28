@@ -1,0 +1,148 @@
+# ================================
+# CrudApp Medical - Git Ignore
+# ================================
+
+# ================================
+# Maven
+# ================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ================================
+# IDE
+# ================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.factorypath
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# ================================
+# OS
+# ================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ================================
+# Application
+# ================================
+# Logs
+*.log
+logs/
+*.log.*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ================================
+# Docker
+# ================================
+# Don't ignore Dockerfile and docker-compose files
+# But ignore runtime data
+docker/mysql/backup/*.sql
+docker/mysql/backup/*.sql.gz
+docker/mysql/backup/*.zip
+
+# ================================
+# Build artifacts
+# ================================
+*.jar
+*.war
+*.ear
+*.class
+
+# ================================
+# Security
+# ================================
+# Never commit these!
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+secrets/
+credentials/
+
+# ================================
+# Test
+# ================================
+# Test coverage
+.coverage
+htmlcov/
+coverage/
+*.cover
+
+# ================================
+# Other
+# ================================
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Node (if frontend is added later)
+node_modules/
+npm-debug.log
+yarn-error.log
