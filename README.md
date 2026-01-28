@@ -1,4 +1,4 @@
-# 🏥 Wi-MédicalE — Medical Management Application (Demo)
+# 🏥 Wi-M-dicalE — Medical Management Application (Demo)
 
 ## 🚨 Demo & Portfolio Version
 This repository is intentionally shared for technical demonstration and evaluation purposes.
