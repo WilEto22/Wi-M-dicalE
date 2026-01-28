@@ -822,7 +822,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 👥 Authors
 
-- **Wilfried Mvomo Eto** - *Initial development* - [YourGitHub](https://github.com/mvom)
+- **Wilfried Mvomo Eto** - *Initial development* - (https://github.com/mvom)
 
 ---
 
@@ -840,8 +840,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or issues:
 
 - 📧 Email: support@wi-medicale.com
-- 🐛 Issues: [GitHub Issues](https://github.com/mvom/Wi-MedicalE/issues)
-- 📖 Documentation: [Wiki](https://github.com/mvom/Wi-MedicalE/wiki)
+- 🐛 Issues: (https://github.com/mvom/Wi-MedicalE/issues)
+- 📖 Documentation: (https://github.com/mvom/Wi-MedicalE/wiki)
 
 ---
 
