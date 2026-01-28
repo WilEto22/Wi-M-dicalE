@@ -21,6 +21,22 @@ The project covers real-world concerns such as authentication, role-based access
 
 ---
 
+## 🖼️ Screenshots
+
+### Dashboard
+![Dashboard Wi-MédicalE](crudapp-frontend/public/images/p0.jpg)
+
+### Login Page
+![Login Page](crudapp-frontend/public/images/p1.jpg)
+
+### Patient Management
+![Patient Page](crudapp-frontend/public/images/p_patient.jpg)
+
+### Doctor Profile
+![Doctor Page](crudapp-frontend/public/images/p_docteur.jpg)
+
+---
+
 ## 📋 Table of Contents
 
 - [Features](#-features)
