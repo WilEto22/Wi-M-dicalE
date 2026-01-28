@@ -1,9 +1,9 @@
 # 🏥 Wi-MédicalE — Medical Management Application (Demo)
 
-🚨 Demo & Portfolio Version
+## 🚨 Demo & Portfolio Version
 This repository is intentionally shared for technical demonstration and evaluation purposes.
 
-🎯 Project Overview
+### 🎯 Project Overview
 
 Wi-MédicalE is a full-stack medical management application built with Java 17 / Spring Boot and React.
 It demonstrates a production-oriented architecture, focusing on security, scalability, monitoring, and clean code practices.
