@@ -161,85 +161,88 @@ crudApp/
 ```
 
 ---
-
 ## 🛠️ Technologies
 
 ### Backend
-- **Java 17** - Programming language
-- **Spring Boot 3.4.12** - Main framework
-- **Spring Security 6** - Authentication and authorization
-- **Spring OAuth2 Client** - OAuth2 social login
-- **Spring Data JPA** - Data access
-- **Hibernate** - ORM
+- Java 17 – Programming language
+- Spring Boot 3.4.12 – Main framework
+- Spring Security 6 – Authentication and authorization
+- Spring OAuth2 Client – OAuth2 social login
+- Spring Data JPA – Data access
+- Hibernate – ORM
 
 ### Frontend
-- **React 18** - UI library
-- **Redux Toolkit** - State management
-- **Material-UI (MUI)** - UI components
-- **React Router** - Navigation
-- **Axios** - HTTP client
-- **react-phone-input-2** - International phone input
-- **react-image-crop** - Image cropping
-- **react-hook-form** - Form management
+- React 18 – UI library
+- Redux Toolkit – State management
+- Material-UI (MUI) – UI components
+- React Router – Navigation
+- Axios – HTTP client
+- react-phone-input-2 – International phone input
+- react-image-crop – Image cropping
+- react-hook-form – Form management
 
 ### Database
-- **MySQL 8.0** - Relational database
-- **H2** - In-memory database for tests
+- MySQL 8.0 – Relational database (production)
+- H2 – In-memory database (tests & local development)
 
 ### Security
-- **JWT (JSON Web Tokens)** - Stateless authentication
-- **OAuth2** - Social login (Google)
-- **BCrypt** - Password hashing
+- JWT (JSON Web Tokens) – Stateless authentication
+- OAuth2 – Social login (Google)
+- BCrypt – Password hashing
 
 ### Monitoring
-- **Prometheus** - Metrics collection
-- **Grafana** - Metrics visualization
-- **Spring Boot Actuator** - Monitoring endpoints
-- **Micrometer** - Application metrics
+- Prometheus – Metrics collection
+- Grafana – Metrics visualization
+- Spring Boot Actuator – Monitoring endpoints
+- Micrometer – Application metrics
 
-### Documentation
-- **Swagger/OpenAPI 3** - Interactive API documentation
+### API Documentation & Testing
+- Swagger / OpenAPI 3 – Interactive API documentation (development & staging)
+- Postman – API testing and validation (local & production)
 
 ### Email
-- **JavaMailSender** - Email sending
-- **MailHog** - SMTP test server
+- JavaMailSender – Email sending
+- MailHog – SMTP test server (local development)
 
 ### Export
-- **Apache POI** - Excel export
-- **iText** - PDF export
+- Apache POI – Excel export
+- iText – PDF export
 
 ### Tests
-- **JUnit 5** - Testing framework
-- **Mockito** - Mocking
-- **Spring Boot Test** - Integration tests
-- **MockMvc** - Controller tests
+- JUnit 5 – Testing framework
+- Mockito – Mocking
+- Spring Boot Test – Integration tests
+- MockMvc – Controller tests
 
-### DevOps
-- **Docker & Docker Compose** - Containerization
-- **GitHub Actions** - CI/CD
-- **SonarCloud** - Code analysis
-- **Trivy** - Security scanning
+### DevOps & Deployment
+- Docker & Docker Compose – Containerization
+- OVH Cloud – Production hosting
+- Nginx – Reverse proxy
+- GitHub Actions – CI/CD
+- SonarCloud – Code quality analysis
+- Trivy – Security scanning
 
 ---
 
 ## 📦 Prerequisites
 
-### For Local Development
+### Local Development
 
 #### Backend
-- **Java 17** or higher
-- **Maven 3.8+**
-- **MySQL 8.0** (or use Docker)
-- **Git**
+- Java 17+
+- Maven 3.8+
+- MySQL 8.0 (or Docker)
+- Git
 
 #### Frontend
-- **Node.js 16+** or higher
-- **npm 8+** or **yarn**
-- **Git**
+- Node.js 16+
+- npm 8+ or yarn
+- Git
 
-### For Docker
-- **Docker 20.10+**
-- **Docker Compose 2.0+**
+### Docker & Production
+- Docker 20.10+
+- Docker Compose 2.0+
+- OVH Cloud VPS / Public Cloud instance
 
 ---
 
