@@ -1,14 +1,6 @@
-# 🏥 Wi-M-dicalE — Medical Management Application (Demo)
+# 🏥 Wi-MédicalE - Medical Management Application
 
-## 🚨 Demo & Portfolio Version
-This repository is intentionally shared for technical demonstration and evaluation purposes.
-
-### 🎯 Project Overview
-
-Wi-MédicalE is a full-stack medical management application built with Java 17 / Spring Boot and React.
-It demonstrates a production-oriented architecture, focusing on security, scalability, monitoring, and clean code practices.
-
-The project covers real-world concerns such as authentication, role-based access control, observability, CI/CD, and containerization.
+Complete Spring Boot application for managing patients, medical appointments, and users with JWT authentication, OAuth2 social login, Prometheus/Grafana monitoring, and Docker deployment.
 
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.12-brightgreen.svg)](https://spring.io/projects/spring-boot)
@@ -18,22 +10,6 @@ The project covers real-world concerns such as authentication, role-based access
 [![Grafana](https://img.shields.io/badge/Grafana-Visualization-F46800.svg)](https://grafana.com/)
 ![Coverage](.github/badges/jacoco.svg)
 ![Branches](.github/badges/branches.svg)
-
----
-
-## 🖼️ Screenshots
-
-### Dashboard
-![Dashboard Wi-MédicalE](crudapp-frontend/public/images/p0.jpg)
-
-### Login Page
-![Login Page](crudapp-frontend/public/images/p1.jpg)
-
-### Patient Management
-![Patient Page](crudapp-frontend/public/images/p_patient.jpg)
-
-### Doctor Management
-![Doctor Page](crudapp-frontend/public/images/p_docteur.jpg)
 
 ---
 
@@ -161,88 +137,85 @@ crudApp/
 ```
 
 ---
+
 ## 🛠️ Technologies
 
 ### Backend
-- Java 17 – Programming language
-- Spring Boot 3.4.12 – Main framework
-- Spring Security 6 – Authentication and authorization
-- Spring OAuth2 Client – OAuth2 social login
-- Spring Data JPA – Data access
-- Hibernate – ORM
+- **Java 17** - Programming language
+- **Spring Boot 3.4.12** - Main framework
+- **Spring Security 6** - Authentication and authorization
+- **Spring OAuth2 Client** - OAuth2 social login
+- **Spring Data JPA** - Data access
+- **Hibernate** - ORM
 
 ### Frontend
-- React 18 – UI library
-- Redux Toolkit – State management
-- Material-UI (MUI) – UI components
-- React Router – Navigation
-- Axios – HTTP client
-- react-phone-input-2 – International phone input
-- react-image-crop – Image cropping
-- react-hook-form – Form management
+- **React 18** - UI library
+- **Redux Toolkit** - State management
+- **Material-UI (MUI)** - UI components
+- **React Router** - Navigation
+- **Axios** - HTTP client
+- **react-phone-input-2** - International phone input
+- **react-image-crop** - Image cropping
+- **react-hook-form** - Form management
 
 ### Database
-- MySQL 8.0 – Relational database (production)
-- H2 – In-memory database (tests & local development)
+- **MySQL 8.0** - Relational database
+- **H2** - In-memory database for tests
 
 ### Security
-- JWT (JSON Web Tokens) – Stateless authentication
-- OAuth2 – Social login (Google)
-- BCrypt – Password hashing
+- **JWT (JSON Web Tokens)** - Stateless authentication
+- **OAuth2** - Social login (Google)
+- **BCrypt** - Password hashing
 
 ### Monitoring
-- Prometheus – Metrics collection
-- Grafana – Metrics visualization
-- Spring Boot Actuator – Monitoring endpoints
-- Micrometer – Application metrics
+- **Prometheus** - Metrics collection
+- **Grafana** - Metrics visualization
+- **Spring Boot Actuator** - Monitoring endpoints
+- **Micrometer** - Application metrics
 
-### API Documentation & Testing
-- Swagger / OpenAPI 3 – Interactive API documentation (development & staging)
-- Postman – API testing and validation (local & production)
+### Documentation
+- **Swagger/OpenAPI 3** - Interactive API documentation
 
 ### Email
-- JavaMailSender – Email sending
-- MailHog – SMTP test server (local development)
+- **JavaMailSender** - Email sending
+- **MailHog** - SMTP test server
 
 ### Export
-- Apache POI – Excel export
-- iText – PDF export
+- **Apache POI** - Excel export
+- **iText** - PDF export
 
 ### Tests
-- JUnit 5 – Testing framework
-- Mockito – Mocking
-- Spring Boot Test – Integration tests
-- MockMvc – Controller tests
+- **JUnit 5** - Testing framework
+- **Mockito** - Mocking
+- **Spring Boot Test** - Integration tests
+- **MockMvc** - Controller tests
 
-### DevOps & Deployment
-- Docker & Docker Compose – Containerization
-- OVH Cloud – Production hosting
-- Nginx – Reverse proxy
-- GitHub Actions – CI/CD
-- SonarCloud – Code quality analysis
-- Trivy – Security scanning
+### DevOps
+- **Docker & Docker Compose** - Containerization
+- **GitHub Actions** - CI/CD
+- **SonarCloud** - Code analysis
+- **Trivy** - Security scanning
 
 ---
 
 ## 📦 Prerequisites
 
-### Local Development
+### For Local Development
 
 #### Backend
-- Java 17+
-- Maven 3.8+
-- MySQL 8.0 (or Docker)
-- Git
+- **Java 17** or higher
+- **Maven 3.8+**
+- **MySQL 8.0** (or use Docker)
+- **Git**
 
 #### Frontend
-- Node.js 16+
-- npm 8+ or yarn
-- Git
+- **Node.js 16+** or higher
+- **npm 8+** or **yarn**
+- **Git**
 
-### Docker & Production
-- Docker 20.10+
-- Docker Compose 2.0+
-- OVH Cloud VPS / Public Cloud instance
+### For Docker
+- **Docker 20.10+**
+- **Docker Compose 2.0+**
 
 ---
 
@@ -656,7 +629,7 @@ PRODUCTION_SSH_KEY - Private SSH key
 Add these badges to your README:
 
 ```markdown
-![Build](https://github.com/mvom/crudApp/workflows/CI-CD/badge.svg)
+![Build](https://github.com/your-username/crudApp/workflows/CI-CD/badge.svg)
 ![Tests](https://img.shields.io/badge/tests-62%20passed-success)
 ![Coverage](https://img.shields.io/badge/coverage-85%25-green)
 ```
@@ -841,7 +814,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 👥 Authors
 
-- **Wilfried Mvomo Eto** - *Initial development* - (https://github.com/mvom)
+- **Your Name** - *Initial development* - [YourGitHub](https://github.com/your-username)
 
 ---
 
@@ -859,8 +832,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or issues:
 
 - 📧 Email: support@wi-medicale.com
-- 🐛 Issues: (https://github.com/mvom/Wi-MedicalE/issues)
-- 📖 Documentation: (https://github.com/mvom/Wi-MedicalE/wiki)
+- 🐛 Issues: [GitHub Issues](https://github.com/your-username/Wi-MedicalE/issues)
+- 📖 Documentation: [Wiki](https://github.com/your-username/Wi-MedicalE/wiki)
 
 ---
 
