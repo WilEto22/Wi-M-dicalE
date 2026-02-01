@@ -90,7 +90,8 @@ The project covers real-world concerns such as authentication, role-based access
 - ✅ API documentation with Swagger/OpenAPI
 - ✅ Unit and integration tests (62 tests)
 - ✅ CI/CD pipeline with GitHub Actions
-- ✅ Docker deployment
+- ✅ Dockerized application
+- ✅ Production deployment on OVH Cloud using Docker
 
 ---
 
