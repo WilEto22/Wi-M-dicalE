@@ -1,6 +1,14 @@
-# 🏥 Wi-MédicalE - Medical Management Application
+# 🏥 Wi-M-dicalE — Medical Management Application (Demo)
 
-Complete Spring Boot application for managing patients, medical appointments, and users with JWT authentication, OAuth2 social login, Prometheus/Grafana monitoring, and Docker deployment.
+## 🚨 Demo & Portfolio Version
+This repository is intentionally shared for technical demonstration and evaluation purposes.
+
+### 🎯 Project Overview
+
+Wi-MédicalE is a full-stack medical management application built with Java 17 / Spring Boot and React.
+It demonstrates a production-oriented architecture, focusing on security, scalability, monitoring, and clean code practices.
+
+The project covers real-world concerns such as authentication, role-based access control, observability, CI/CD, and containerization.
 
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.12-brightgreen.svg)](https://spring.io/projects/spring-boot)
