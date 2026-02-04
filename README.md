@@ -1,7 +1,7 @@
 # 🏥 Wi-M-dicalE — Medical Management Application (Demo)
 
 ## 🚨 Demo & Portfolio Version
-This repository is intentionally shared for technical demonstration and evaluation purposes via https://www.linkedin.com/posts/wilfried-mvomo-eto-a71b1a289_fullstackdevelopment-healthcareit-springboot-ugcPost-7424497035665485825-uGyK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYcbnUBRtrf1dAaZJ6oqRPcl95ms1DBAC8)
+This repository is intentionally shared for technical demonstration and evaluation purposes (via https://www.linkedin.com/posts/wilfried-mvomo-eto-a71b1a289_fullstackdevelopment-healthcareit-springboot-ugcPost-7424497035665485825-uGyK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYcbnUBRtrf1dAaZJ6oqRPcl95ms1DBAC8)
 
 ### 🎯 Project Overview
 
